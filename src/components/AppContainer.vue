@@ -51,8 +51,9 @@ export default {
 </script>
 
 <style lang="scss">
-    body{
-        font-family: 'Bai Jamjuree', sans-serif;
-        font-family: 'Montserrat', sans-serif;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 </style>

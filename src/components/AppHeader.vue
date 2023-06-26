@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-between">
+        <div>
+            <div class="container">
                 <div class="logo">
                     <img src="../assets/img/logotype.png" alt="">
                 </div>
@@ -29,6 +29,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
+@use '../styles/partials/mixins' as *;
+
     .logo img{
         width: 112px;
     }

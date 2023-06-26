@@ -1,29 +1,36 @@
 <template>
     <footer>
         <div class="container">
-            <div>
-                <div>
+            <div class="footer-top">
+                <div class="logo">
                     <img src="../assets/img/logotype-2-139x23.png" alt="">
                 </div>
                 <div>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                    <ul>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
                 </div>
             </div>
             <hr>
-            <div>
-                <ul>
-                    <li>
-
-                    </li>
-                </ul>
-            </div>
-            <hr>
-            <div>
+            <div class="footer-bottom">
                 <div>
-                    <a href="">Terms of use</a>
+                    <a href="">Terms of use</a><br>
                     <a href="">Privacy Environmental Policy</a>
                 </div>
                 <div>
@@ -43,9 +50,41 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
+@use '../styles/partials/mixins' as *;
 
     footer{
         background-color: $blue-bg;
         color:#FFFFFF;
+
+        .footer-top{
+            @include d-flex();
+            padding-bottom: 80px;
+
+            .logo{
+                margin-top: 17px;
+            }
+
+            .social{
+                @include d-flex();
+                .icon{
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+        }
+
+        .footer-bottom{
+            @include d-flex(row, space-between, end, nowrap);
+            padding-top: 35px;
+            padding-bottom: 39px;
+
+            a{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+        }
     }
 </style>

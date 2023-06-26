@@ -1,5 +1,5 @@
 <template>
-    <section class="AboutUs">
+    <section class="aboutus">
         <h1>AboutUs</h1>
     </section>
 </template>
@@ -10,6 +10,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-    
+<style lang="scss" scoped>
+    section{
+        height:89vh
+    }
 </style>

@@ -15,5 +15,10 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../node_modules/bootstrap/scss/bootstrap";
+@use './styles/general.scss' as *;
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 </style>

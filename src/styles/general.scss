@@ -1,0 +1,62 @@
+body{
+    background-color: #1f1e38;
+}
+
+header{
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+}
+
+main{
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1{
+    font-size: 106px;
+    line-height: 93px;
+    color: #FFFFFF;
+}
+
+
+h2{
+    font-size: 60px;
+    line-height: 65px;
+}
+
+h3{
+    font-size: 45px;
+    line-height: 49px;
+}
+
+h4{
+    font-size: 35px;
+    line-height: 45px;
+}
+
+h5{
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 1rem;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.green-line{
+    height: 2px;
+    width: 50px;
+    background-color: #39ffbf;
+}
