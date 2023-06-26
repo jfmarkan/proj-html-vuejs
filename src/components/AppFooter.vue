@@ -7,8 +7,8 @@
                 </div>
                 <div>
                     <ul>
-                        <li>
-
+                        <li v-for="link in menuLinks">
+                            {{link.text}}
                         </li>
                     </ul>
                 </div>
@@ -44,7 +44,10 @@
 
 <script>
 export default {
-    name: 'AppFooter'
+    name: 'AppFooter',
+    props:{
+        menuLinks:Array,
+    }
 }
 </script>
 

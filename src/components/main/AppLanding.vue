@@ -65,7 +65,7 @@ export default {
         .content{
             position: absolute;
             transform: translateY(-50%);
-            top: 50%;
+            top: 57%;
             width: 50%;
 
             .intro{
@@ -92,7 +92,7 @@ export default {
                     height: 55px;
                     width: 55px;
                     border-radius: 50%;
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                     color: $green-bg;
                     margin-left: 2.5rem;
                 }

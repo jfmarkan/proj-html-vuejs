@@ -1,7 +1,7 @@
 <template>
-    <AppHeader />
+    <AppHeader :menuLinks="menuLinks"/>
     <AppMain />
-    <AppFooter />
+    <AppFooter :menuLinks="menuLinks"/>
 </template>
 
 <script>
@@ -21,28 +21,28 @@ export default {
         return{
             menuLinks: [
                 {
-                    "text": "HOME",
-                    "link": "#",
+                    text: 'HOME',
+                    active: true,
                 },
                 {
-                    "text": "ABOUT",
-                    "link": "#",
+                    text: 'ABOUT',
+                    active: false,
                 },
                 {
-                    "text": "PROJECTS",
-                    "link": "#",
+                    text: 'PROJECTS',
+                    active: false,
                 },
                 {
-                    "text": "SERVICES",
-                    "link": "#",
+                    text: 'SERVICES',
+                    active: false,
                 },
                 {
-                    "text": "BLOG",
-                    "link": "#",
+                    text: 'BLOG',
+                    active: false,
                 },
                 {
-                    "text": "CONTACT",
-                    "link": "#",
+                    text: 'CONTACT',
+                    active: false,
                 },
             ]
         }
