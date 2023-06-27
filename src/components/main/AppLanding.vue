@@ -45,10 +45,8 @@ export default {
             height: 100vh;
             
             div.w-34{
-                background-image: url('../../assets/img/Group_7543.svg');
                 width: 34%;
                 height: 100%;
-
             }
             div.w-66{
                 background-image: url('../../assets/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg');
@@ -62,6 +60,15 @@ export default {
             }
         }
 
+        button{
+            background-color: $green-bg;
+            transition-duration: 0.3s;
+            overflow: hidden;
+            &:hover{
+                color:#ffffff;
+                background-color: $red-bg;
+            }
+        }
         .content{
             position: absolute;
             transform: translateY(-50%);
@@ -75,10 +82,7 @@ export default {
             .action{
                 @include d-flex(row, start, center, nowrap);
 
-                button{
-                    background-color: $green-bg;
-                }
-
+                
                 .play{
                     @include d-flex(row, center, center, nowrap);
                     border: 2px solid #FFF;

@@ -43,6 +43,10 @@ export default {
         position: absolute;
         bottom:0;
         right: 0;
+        z-index:3;
+        &:hover{
+            background-color: $blue-bg;
+        }
     }
 
     .content{

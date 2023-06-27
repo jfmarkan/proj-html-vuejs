@@ -73,6 +73,10 @@ export default {
 
             button{
                 background-color: $green-bg;
+                &:hover{
+                    background-color: $red-bg;
+                    color:#FFFFFF;
+                }
             }
         }
         
@@ -84,6 +88,20 @@ export default {
             article{
                 width: calc((100% / 2) - 1rem);
                 position: relative;
+                &:hover{
+                    .img{
+                        overflow: hidden;
+                        img{
+                            transition: all 0.5s ease-in-out;
+                            transform: scale(1.05);
+                        }
+                    }
+                    .info{
+                        background-color: $green-bg;
+                        bottom: -20px;
+                        transition: all 0.5s ease-in-out;
+                    }
+                }
 
                 img{
                     width: 100%;
@@ -104,7 +122,7 @@ export default {
 
                     .title{
                         font-family: 'Bai Jamjuree', sans-serif;
-                        font-size: 1.8rem;
+                        font-size: 1.5rem;
                         color:#000;
                         margin: 2rem 0;
                     }
@@ -114,6 +132,7 @@ export default {
                         text-align: justify;
                     }
                 }
+                
             }
         }
         .img-bg{

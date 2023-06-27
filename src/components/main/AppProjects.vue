@@ -63,7 +63,10 @@ export default {
                 width: 50px;
                 height: 50px;
                 background-color: rgba(33,150,243,.2);
-                margin: .25rem
+                margin: .25rem;
+                &:hover{
+                    background-color: $green-bg;
+                }
             }
         }
         .content{

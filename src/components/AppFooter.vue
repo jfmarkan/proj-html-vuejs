@@ -70,7 +70,11 @@ export default {
                     @include d-flex(row, center, center, nowrap);
                     width: 34px;
                     height: 34px;
-
+                    &:hover{
+                        cursor: pointer;
+                        color: $red-bg;
+                        transition: all 0.1s ease-in-out;
+                    }
                 }
             }
         }
@@ -84,6 +88,11 @@ export default {
                 line-height: 23px;
                 color: #cfcfcf;
                 position: relative;
+                &:hover{
+                    cursor: pointer;
+                    color: $red-bg;
+                    transition: all 0.1s ease-in-out;
+                }
             }
         }
 
