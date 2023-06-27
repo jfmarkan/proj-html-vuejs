@@ -76,14 +76,7 @@ export default {
                 @include d-flex(row, start, center, nowrap);
 
                 button{
-                    font-family: "Raleway", sans-serif;
                     background-color: $green-bg;
-                    font-size: 15px;
-                    line-height: 19px;
-                    letter-spacing: 2px;
-                    font-weight: 500;
-                    padding: 1.25rem 4rem;
-                    border: none;
                 }
 
                 .play{
