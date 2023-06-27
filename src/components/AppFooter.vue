@@ -63,16 +63,27 @@ export default {
             @include d-flex();
             padding-bottom: 80px;
 
-            .logo{
-                margin-top: 17px;
-            }
 
             .social{
-                @include d-flex();
+                @include d-flex(row, center, center, nowrap);
                 .icon{
+                    @include d-flex(row, center, center, nowrap);
                     width: 34px;
                     height: 34px;
+
                 }
+            }
+        }
+
+        div ul{
+        @include d-flex(row, space-between, center, nowrap);
+
+            li{
+                padding: 1.25rem;
+                font-size: .75rem;
+                line-height: 23px;
+                color: #cfcfcf;
+                position: relative;
             }
         }
 

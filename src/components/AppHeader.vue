@@ -45,7 +45,7 @@ export default {
     }
 
     nav ul{
-        @include d-flex(row, space-between, stretch, nowrap);
+        @include d-flex();
 
         li{
             padding: 1.25rem;
