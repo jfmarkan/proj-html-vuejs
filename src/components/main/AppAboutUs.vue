@@ -12,7 +12,7 @@
                 </div>
                 <h2>WE MAKE YOUR STRATEGY WORK</h2>
                 <div class="action">
-                    <p>When, while lovely valley teems with vapour arround meand eridian sun strikes the upper impenetrable foliage of my trees, and but thousand unknown plants are noticed when I hear <br> the buzz of the little world among the stalks, and grow familiar indescribable forms of the insects .and flies, then I feel the presence of the Almighty.</p>
+                    <p>When, while lovely valley teems with vapour arround meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear <br> the buzz of the little world among the stalks, and grow familiar indescribable forms of the insects .and flies, then I feel the presence of the Almighty.</p>
                 </div>
             </div>
         </div>

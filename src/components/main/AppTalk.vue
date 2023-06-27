@@ -27,7 +27,6 @@ export default {
         .content{
             @include d-flex(column, center, center, nowrap);
 
-
             p{
                 text-align: center;
                 line-height: 1.5rem;
@@ -49,7 +48,4 @@ export default {
             padding: 140px 0 80px;
         }
     }
-
-    
-
 </style>
