@@ -31,7 +31,7 @@ export default {
     }
 
     div.background{
-        width: 91vw;
+        width: 92vw;
         height: 100%;
         background-color: #35ffbf;
         position: relative;

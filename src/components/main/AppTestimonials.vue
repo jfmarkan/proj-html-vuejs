@@ -61,10 +61,10 @@ export default {
         @include d-flex();
     }
     div.spacer{
-        width: 9%;
+        width: 8%;
     }
     div.background{
-        width: 91%;
+        width: 92%;
         height: 100%;
         background-color: #FFF;
         position: relative;

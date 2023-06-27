@@ -35,17 +35,14 @@ export default {
 @use '../../styles/partials/variables' as *;
 @use '../../styles/partials/mixins' as *;
 
-    section{
-        height: 94vh;
-    }
     .align-right{
         @include d-flex();
     }
     div.spacer{
-        width: 9%;
+        width: 8%;
     }
     div.background{
-        width: 91%;
+        width: 92%;
         height: 94vh;
         background-color: #FFF;
     }

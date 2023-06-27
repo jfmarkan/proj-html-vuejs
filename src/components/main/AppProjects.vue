@@ -20,13 +20,13 @@
             
             <div class="content">
                 <div class="action">
-                    <div>
+                    <div class="single-project">
                         <img src="../../assets/img/DRY-1-790x592.jpg" alt="">
                     </div>
-                    <div>
+                    <div class="single-project">
                         <img src="../../assets/img/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="">
                     </div>
-                    <div>
+                    <div class="single-project">
                         <img src="../../assets/img/z1el4c4p-790x592.jpg" alt="">
                     </div>
                 </div>
@@ -82,11 +82,30 @@ export default {
 
         .action {
             @include d-flex();
-            
-            div{
-            width: calc((100% / 3) - 1rem);
+            .single-project{
+                position: relative;
+                width: calc((100% / 3) - 1rem);
+                overflow: hidden;
                 img{
                     width: 100%;
+                }
+                &:hover{
+                    img{
+                        transform: scale(1.2);
+                        transition: all 1s ease-in-out;
+                    }
+                    &::after{
+                        background-color: #f00e2e;
+                        z-index: 1;
+                        content: '';
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        mix-blend-mode: darken;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
                 }
             }
         }
