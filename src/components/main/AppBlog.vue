@@ -62,7 +62,6 @@ export default {
     section{
         background-color: $blue-bg;
         color:#FFFFFF;
-        margin-top: 240px;
         margin-bottom: 250px;
         .intro{
             @include d-flex(row, start, baseline, nowrap);

@@ -49,6 +49,7 @@ export default {
         background-color: $blue-bg;
         color:#FFFFFF;
         margin-top: 220px;
+
         .intro{
             @include d-flex(row, start, baseline, nowrap);
             margin-bottom: 1rem

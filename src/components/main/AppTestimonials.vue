@@ -1,11 +1,11 @@
 <template>
     <section class="testimonial">
         <div class="container">
-            <div class="align-right"></div>
-            <div class="intro">
-                <h5>TESTIMONIAL</h5>
-                <div class="green-line"></div>
-            </div>
+            <div class="align-right-top">
+                <div class="intro">
+                    <h5>TESTIMONIAL</h5>
+                    <div class="green-line"></div>
+                </div></div>
             <h4>WHAT'S THE CUSTOMER SAY <br> ABOUT OUR WORK</h4>
         </div>
         <div class="align-right">
@@ -46,15 +46,19 @@ export default {
     section{
         height: 34vh;
         margin-top: 160px;
+        margin-bottom: 260px;
     }
 
     h4{
         text-align: right
     }
+    .align-right-top{
+        @include d-flex(row, end, start, nowrap)
+    }
+
     .intro{
         @include d-flex(row, space-between, baseline, nowrap);
-        text-align: right;
-        width: 50%;
+        width: 55%;
         margin-bottom: 1rem
     }
     .align-right{
