@@ -32,7 +32,6 @@ export default {
 @use '../styles/partials/mixins' as *;
 
     header{
-        @include d-flex();
         width: 100%;
         height: 78px;
 
