@@ -97,7 +97,7 @@ export default {
             .single-consultant{
                 @include d-flex(row, center, start, nowrap);
                 width: 30%;
-                margin-left: 8rem;
+                margin-left: 5rem;
                 .icon{
                     @include d-flex(row, center, center, nowrap);
                     background-color: $red-bg;
@@ -110,6 +110,7 @@ export default {
                 }
                 .title{
                     font-family: 'Bai Jamjuree', sans-serif;
+                    font-size: 25px;
                     margin: .5rem 0 1rem;
                 }
             }
